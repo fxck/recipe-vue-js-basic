@@ -1,12 +1,6 @@
 <template>
   <div id="app">
-
-    <h1 class="__title">Welcome to <div class="__zerops">ZEROPS</div> recipe including <div class="__tech">Vue.js</div>, connected to <div class="__tech">API</div> and <div class="__tech">database</div></h1>
-
-    <h2 class="__quote-title">Quote loaded from <div class="__tech">database</div></h2>
-
-    <h3 class="__quote">{{ quote && quote.quote }}<span class="__author"> - ZEROPS, {{ quote ? format(quote.createdAt ? new Date(quote.createdAt) : new Date(quote.created_at), 'MM/dd/yyyy') : '' }}</span></h3>
-
+    zeooí
     <div class="__checklist">
 
       <h3 class="__checklist-title"><strong>Your next steps?</strong></h3>
