@@ -5,7 +5,7 @@
 
     <h2 class="__quote-title">Quote loaded from <div class="__tech">database</div></h2>
 
-    <h3 class="__quote">{{ quote && quote.quote }}<span class="__author"> - ZEROPS, {{ quote && quote.createdAt ? format(new Date(quote.createdAt ? quote.createdAt : quote.created_at), 'MM/dd/yyyy') : '' }}</span></h3>
+    <h3 class="__quote">{{ quote && quote.quote }}<span class="__author"> - ZEROPS, {{ quote && quote.createdAt ? format(quote.createdAt ? new Date(quote.createdAt) : new Date(quote.created_at), 'MM/dd/yyyy') : '' }}</span></h3>
 
     <div class="__checklist">
 
